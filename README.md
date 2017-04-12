@@ -10,14 +10,15 @@ this one is merely like "copy paste", i don't want that lol
 --------------
 # What's New:
 
-- <s>nothing much</s> Initial Commit
+- Using Image to fill the amount as many as the progress do, in circle.......
+- added: percentage text
 
 --------------
 # Next:
 
-- Using real Progress Bar or Image
-- Display current percentage
 - my own custom Progress Bar or Image
+- let's try transparent circle and allow scene activation immediately
+- <b>ANDROID IS COMING IN~</b> in different repository, but the logic is still the same
 
 --------------
 # Reference
