@@ -1,25 +1,26 @@
 # Loading-Screen-Unity
 Loading Screen for Unity in the nutshell
 -------------
-asynchronous process? nyeh, idk much, my brain's hurt......grinding game all day all night
-
 hope this help, further research is coming soon......
 
-this one is merely like "copy paste", i don't want that lol
+<s>this one is merely like "copy paste", i don't want that lol</s> **NON RECTANGULAR BUTTON HYPE!~**
 
 --------------
-# What's New:
+## What's New:
 
 - Using Image to fill the amount as many as the progress do, in circle.......
 - added: percentage text
+- Extra: **NON RECTANGULAR BUTTON (UNIQUE BUTTON) IS NOW FUNCTIONAL!!!**
 
 --------------
-# Next:
+## Task:
 
-- my own custom Progress Bar or Image
-- let's try transparent circle and allow scene activation immediately
-- <b>ANDROID IS COMING IN~</b> in different repository, but the logic is still the same
+- [x] custom Progress Bar
+- [x] let's try non rectangular
+- [ ] allow scene activation immediately
+- [ ] <b>ANDROID IS COMING IN~</b> in different repository, but the logic is still the same
 
 --------------
-# Reference
-https://www.youtube.com/watch?v=oNf3gdjiEEQ
+#### Reference
+1. https://www.youtube.com/watch?v=oNf3gdjiEEQ
+1. https://docs.unity3d.com/ScriptReference/UI.Image-alphaHitTestMinimumThreshold.html
