@@ -8,6 +8,9 @@ public class LoadingV2 : MonoBehaviour {
 
     AsyncOperation _operation;
 
+    [SerializeField]
+    Image _buttonImage;
+
     [Header("Init")]
     public GameObject _loadingScreen;
     public Image _imageLoading;
@@ -16,7 +19,12 @@ public class LoadingV2 : MonoBehaviour {
     [Header("Scene Management")]
     [SerializeField]
     int _targetScene;
-    
+
+    private void Start()
+    {
+        _buttonImage.alphaHitTestMinimumThreshold = 0.7f;
+    }
+
     public void GoToLevel()
     {
         _loadingScreen.SetActive(true);
@@ -54,7 +62,7 @@ public class LoadingV2 : MonoBehaviour {
                 }
 
             }
-            Debug.Log(_operation.progress);
+            //Debug.Log(_operation.progress);
             yield return null;
 
         }
